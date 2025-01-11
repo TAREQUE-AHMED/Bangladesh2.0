@@ -2,63 +2,47 @@
             margin: 0;
            padding: 0;
         } */
-         .nav-style{
-            display: flex;
-            justify-content: space-around;
+         .sign-btn{
+           background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #87e8c6;
+  margin: 30px;
+  color: #87e8c6;
          }
+         .sign-btn:hover{
+          background-color: #45a049;
+         }
+.nav-style {
+  display: flex;
+  justify-content: space-around;
+}
+.heading{
+  font-size: 36px;              
+  font-weight: bold;            
+  color: #333;                 
+  text-align: center;           
+  line-height: 1.5;             
+  margin: 0 auto;               
+  letter-spacing: 1px;          
+  max-width: 600px;
+}
 .header {
   padding: 40px;
 }
 
 .banner {
-  /* display: flex;
+  background-color: #87e8c6;
+  /* color: white;               */
+  text-align: center;
+  padding: 20px 40px;
+  margin: 0 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: orange;
-  padding-left: 40px;
-} */
- background-color:#87E8C6;  /* Green background color */
-  color: white;              /* White text color */
-  text-align: center;        /* Center text inside the banner */
-  padding: 20px 40px;        /* Add padding inside the banner */
-  margin: 0 20px;            /* Add margin to create gaps on the left and right */
-  border-radius: 5px;        /* Optional: Rounded corners */
-  box-sizing: border-box;    /* Include padding in total width */
-  display: flex;             /* Use Flexbox for layout */
-  align-items: center;       /* Vertically align items */
-  gap: 20px; 
   border-radius: 15px;
-}
-.banner-text {
-  flex: 1;
-  max-width: 50%;
-}
-
-.banner-text h1 {
-  font-size: 3rem;
-  margin: 0;
-  color: #333;
-}
-
-.banner-text p {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-  color: #555;
-}
-
-.banner-text a {
-  display: inline-block;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  color: white;
-  background-color: #007bff;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.banner-text a:hover {
-  background-color: #0056b3;
 }
 
 .banner-image {
@@ -117,8 +101,16 @@
   border-radius: 10px;
 }
 .quote-section {
+   background-color: #f9f9f9;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   text-align: left;
+    max-width: 92%; /* Limit the width of the section */
+  margin: 0 auto;
   background-image: url(../assets/images/quote-bg.png);
   background-repeat: no-repeat;
+  background-position: top-left;
+   background-size: 100px 100px;
   padding: 40px;
   border-radius: 15px;
 }
@@ -148,128 +140,126 @@
   font-size: 700;
 }
 .donate-description {
- margin-right: 100px;
- margin-left: 100px;
- text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
 }
-.donate-category{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-
+.donate-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
-.donation-amount{
-    background-color: white;
-    padding: 50px;
-    border-radius: 15px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 30px;
+.donation-amount {
+  background-color: white;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px;
 }
-.donation-amount:hover{
-    background-color: #0056b3;
+.donation-amount:hover {
+  background-color: #0056b3;
 }
-.extra-style{
-    background-color:turquoise;
+.extra-style {
+  background-color: turquoise;
 }
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;     
+  align-items: center;
 }
-.input-btn{
-    border:1px solid white ;
-     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-    width: 45%;          
-    height: 50px;         
-    box-sizing: border-box
-
+.input-btn {
+  border: 1px solid white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 45%;
+  height: 50px;
+  box-sizing: border-box;
 }
-.centered-placeholder{
-                 
-  text-align: center;        
+.centered-placeholder {
+  text-align: center;
   box-sizing: border-box;
 }
 
 .btn-container {
   display: flex;
-  justify-content: center; 
-  align-items: center;     
- margin-top: 20px;           
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .centered-button {
-  padding: 10px 20px;      
-  background-color: #4CAF50; 
-  color: white;             
-  border: none;             
-  border-radius: 5px;       
-  font-size: 16px;          
-  cursor: pointer;         
-  box-sizing: border-box;   
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 /* Hover effect */
 .centered-button:hover {
-  background-color: #FF5722; 
-  transform: scale(1.1);      
+  background-color: #ff5722;
+  transform: scale(1.1);
 }
-.btn-effect{
-    padding: 10px 20px;       
-  color: white;             
-  border: none;             
-  border-radius: 5px;       
-  font-size: 16px;          
-  cursor: pointer;         
-  box-sizing: border-box;   
+.btn-effect {
+  padding: 10px 20px;
+  /* color: white; */
+  
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.btn-effect:hover{
-    background-color: #FF5722;
-    transform: scale(1.1);
+.btn-effect:hover {
+  background-color: #ff5722;
+  transform: scale(1.1);
 }
-.subcription-part{
-  background-color: #87E8C6;
+.subcription-part {
+  background-color: #87e8c6;
   padding: 80px;
   border-radius: 15px;
-  margin:20px
+  margin: 20px;
 }
-.newsletter-title{
-    text-align: center;
-    margin-top: 5px;
+.newsletter-title {
+  text-align: center;
+  margin-top: 5px;
 }
-.newsletter-discription{
-    text-align: center;
+.newsletter-discription {
+  text-align: center;
 }
 .subscribe-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 20px;
-    }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
 
-    .subscribe-input {
-      padding: 10px;
-      font-size: 16px;
-      border: none;
-      border-right: none;
-      border-radius: 5px 0 0 5px; 
-      outline: none;
-      width: 300px;
-    }
+.subscribe-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  width: 300px;
+}
 
-    .subscribe-button {
-      padding: 10px 20px;
-      font-size: 16px;
-      color: white;
-      background-color: #4CAF50;
-      
-      border: none;
-      border-radius: 0 5px 5px 0; 
-      cursor: pointer;
-      outline: none;
-    }
+.subscribe-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #4caf50;
 
-    .subscribe-button:hover {
-      background-color: #45a049;
-    }
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  outline: none;
+}
+
+.subscribe-button:hover {
+  background-color: #45a049;
+}

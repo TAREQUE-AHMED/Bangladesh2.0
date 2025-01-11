@@ -35,7 +35,7 @@
   background-color: #87e8c6;
   /* color: white;               */
   text-align: center;
-  padding: 20px 40px;
+  padding: 20px;
   margin: 0 20px;
   border-radius: 5px;
   box-sizing: border-box;
@@ -43,6 +43,9 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 15px;
+}
+.title{
+  padding: 0 40px;
 }
 
 .banner-image {
@@ -56,7 +59,7 @@
   border-radius: 10px;
 }
 .future-vision {
-  padding: 45px;
+  padding:0 45px;
 }
 .future-title {
   font-weight: bold;

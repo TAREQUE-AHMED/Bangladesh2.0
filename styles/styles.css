@@ -1,0 +1,243 @@
+/* body {
+            margin: 0;
+           padding: 0;
+        } */
+         .nav-style{
+            display: flex;
+            justify-content: space-around;
+         }
+.header {
+  padding: 40px;
+}
+
+.banner {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: orange;
+  padding-left: 40px;
+} */
+ background-color:#87E8C6;  /* Green background color */
+  color: white;              /* White text color */
+  text-align: center;        /* Center text inside the banner */
+  padding: 20px 40px;        /* Add padding inside the banner */
+  margin: 0 20px;            /* Add margin to create gaps on the left and right */
+  border-radius: 5px;        /* Optional: Rounded corners */
+  box-sizing: border-box;    /* Include padding in total width */
+  display: flex;             /* Use Flexbox for layout */
+  align-items: center;       /* Vertically align items */
+  gap: 20px; 
+  border-radius: 15px;
+}
+.banner-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #333;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.banner-text a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.banner-text a:hover {
+  background-color: #0056b3;
+}
+
+.banner-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.future-vision {
+  padding: 45px;
+}
+.future-title {
+  font-weight: bold;
+  padding: 0 auto;
+  margin-right: 30px;
+}
+.vision-category {
+  display: flex;
+  gap: 5px;
+  margin: 40px;
+}
+.category-contain {
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 30px;
+}
+.btn-primary {
+  color: white;
+  background-color: #007bff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.btn-secondary {
+  color: white;
+  background-color: chartreuse;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.third-btn {
+  color: white;
+  background-color: yellowgreen;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.quote-section {
+  background-image: url(../assets/images/quote-bg.png);
+  background-repeat: no-repeat;
+  padding: 40px;
+  border-radius: 15px;
+}
+.quote-title {
+  font-weight: bold;
+}
+.news-title {
+  font-weight: bold;
+}
+.recent-rews {
+  padding: 40px;
+}
+.recent-news-details {
+  display: flex;
+  gap: 20px;
+  padding: 60px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  margin: 40px;
+}
+.satellite-img {
+  border-radius: 10px;
+}
+.donate-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 700;
+}
+.donate-description {
+ margin-right: 100px;
+ margin-left: 100px;
+ text-align: center;
+}
+.donate-category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+.donation-amount{
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
+.donation-amount:hover{
+    background-color: #0056b3;
+}
+.extra-style{
+    background-color:turquoise;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+}
+.input-btn{
+    border:1px solid white ;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 45%;          
+    height: 50px;         
+    box-sizing: border-box
+
+}
+.centered-placeholder{
+                 
+  text-align: center;        
+  box-sizing: border-box;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+ margin-top: 20px;           
+}
+.centered-button {
+  padding: 10px 20px;      
+  background-color: #4CAF50; 
+  color: white;             
+  border: none;             
+  border-radius: 5px;       
+  font-size: 16px;          
+  cursor: pointer;         
+  box-sizing: border-box;   
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.centered-button:hover {
+  background-color: #FF5722; 
+  transform: scale(1.1);      
+}
+.btn-effect{
+    padding: 10px 20px;       
+  color: white;             
+  border: none;             
+  border-radius: 5px;       
+  font-size: 16px;          
+  cursor: pointer;         
+  box-sizing: border-box;   
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.btn-effect:hover{
+    background-color: #FF5722;
+    transform: scale(1.1);
+}
+.subcription-part{
+  background-color: #87E8C6;
+  padding: 80px;
+  border-radius: 15px;
+  margin:20px
+}
+.newsletter-title{
+    text-align: center;
+    margin-top: 5px;
+}
+.newsletter-discription{
+    text-align: center;
+}
